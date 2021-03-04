@@ -8,7 +8,7 @@ def estimate_home_value(size_in_sqft, number_of_bedrooms):
     value = value + (size_in_sqft * 95)
 
     # Adjust the value estimate based on the number of bedrooms
-    value =value + (number_of_bedrooms * 12000)
+    value = value + (number_of_bedrooms * 12000)
 
     return value
 

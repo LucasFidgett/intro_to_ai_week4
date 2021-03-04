@@ -47,4 +47,3 @@ print("Training Set Mean Absolute Error: %.4f" % mse)
 # Find the error rate on the test set
 mse = mean_absolute_error(y_test, model.predict(X_test))
 print("Test Set Mean Absolute Error: %.4f" % mse)
-
